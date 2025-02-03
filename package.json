@@ -19,7 +19,7 @@
     "commands": [
       {
         "command": "deepseek-ext.start",
-        "title": "Deepseek Modal"
+        "title": "ML Assistant"
       }
     ]
   },
