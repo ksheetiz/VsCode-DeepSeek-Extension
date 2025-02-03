@@ -4,7 +4,11 @@ import getWebviewContent from "./webview";
 
 export function activate(context: vscode.ExtensionContext) {
 
-	console.log('Congratulations, your extension "deepseek-ext" is now active!');
+	const fmStatusBarItem = vscode.window.createStatusBarItem(
+		'fm-statusBarItem',
+		vscode.StatusBarAlignment.Left
+	);
+	fmStatusBarItem.text = `$(fm-logo)`;
 
 	const disposable = vscode.commands.registerCommand('deepseek-ext.start', async() => {
 
@@ -37,7 +41,7 @@ export function activate(context: vscode.ExtensionContext) {
 				const userPrompt = message.text;
 
 				let responseText = '';
-				
+
 				try{
 					const streamResponse = await ollama.chat({
 						model : modelName,

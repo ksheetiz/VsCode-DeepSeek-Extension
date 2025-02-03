@@ -1,8 +1,9 @@
 {
   "name": "deepseek-ext-1",
-  "displayName": "deepseek-ext-1",
+  "displayName": "ML Assistant",
   "description": "",
   "version": "0.0.1",
+  "icon": "./assets/brain-lightning.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/ksheetiz/VsCode-DeepSeek-Extension"
@@ -21,7 +22,16 @@
         "command": "deepseek-ext.start",
         "title": "ML Assistant"
       }
-    ]
+    ],
+    "icons": {
+      "fm-logo": {
+        "description": "Ml Assistant icon",
+        "default": {
+          "fontPath": "./assets/mlassistant.woff",
+          "fontCharacter": "\\e900"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
