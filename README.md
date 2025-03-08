@@ -40,11 +40,7 @@ Modify the settings in `.deepseekml-config.json` to customize model execution. E
 - **Logging Issues?** Check the logs in the VSCode terminal and adjust the logging level in the config file.
 
 ## Contributing
-We welcome contributions! Feel free to submit issues, feature requests, or pull requests on our GitHub repository.
+I welcome contributions! Feel free to submit issues, feature requests, or pull requests on GitHub repo.
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for more details.
-
-## Support
-For support or inquiries, please visit our [GitHub Issues](https://github.com/your-repo/deepseek-vscode/issues) or contact us at support@deepseekml.com.
-
